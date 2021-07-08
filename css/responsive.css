@@ -242,11 +242,9 @@
     .main-title {
         line-height: 38px;
     }
-
 }
 
 @media (max-width:300px) {
-
     .testimonials .container {
         width: 270px;
     }
