@@ -112,6 +112,8 @@ a {
     letter-spacing: 8.75px;
     text-transform: uppercase;
     color: #FFFFFF;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
 }
 
 .hiddenButton {
