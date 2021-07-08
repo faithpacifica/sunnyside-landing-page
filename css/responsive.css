@@ -171,8 +171,8 @@
 
     .extra-text {
         font-size: 18px;
+        line-height: 16px;
     }
-
 }
 
 
@@ -203,8 +203,8 @@
     }
 
     .extra-title {
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 22px;
+        line-height: 24px;
     }
 
     .sub-title {
