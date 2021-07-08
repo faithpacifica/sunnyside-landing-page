@@ -1,6 +1,6 @@
 @import url(./font.css);
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet");
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
 
 /* COMMON STYLES */
 
@@ -54,8 +54,12 @@ a {
     padding: 45px 0;
 }
 
+.right{
+    display:flex;
+
+}
 .navbar {
-    padding-top: 25px;
+    padding-top: 16px;
     padding-bottom: 16px;
     font-family: Barlow, sans-serif;
     font-weight: 600;
@@ -64,8 +68,8 @@ a {
     letter-spacing: -0.128571px;
 }
 
-.navbar a:not(:last-child) {
-    margin-right: 57px;
+.navbar a {
+    margin-right: 47px;
 }
 
 .header-nav {
@@ -74,6 +78,12 @@ a {
 
 .main-links {
     color: #FFFFFF;
+}
+
+.main-links:hover{
+    cursor:pointer;
+    border-bottom:3px solid lightgray;
+    transition: 0.2s ease-in-out;
 }
 
 .contact {
@@ -102,10 +112,11 @@ a {
 .arrow {
     position: absolute;
     left: 50%;
-    top: 270px;
+    top: 280px;
 }
 
 .main-title {
+    font-family: Barlow, sans-serif;
     margin: 0 auto;
     font-size: 54px;
     line-height: 69px;
@@ -299,7 +310,7 @@ a {
     position: absolute;
     text-align: center;
     margin: 0 auto;
-    top: 47%;
+    top: 49%;
     right: 0;
     left: 0;
     bottom: 0;
@@ -346,7 +357,7 @@ a {
     text-align: center;
     letter-spacing: 5px;
     color: #A7AAAD;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 
 .col2 {
@@ -425,6 +436,7 @@ a {
 
 .footer-links:hover {
     color: white;
+    transition:0.3s ease-in-out;
 }
 
 .social-media .icons {
@@ -434,6 +446,7 @@ a {
 
 .social-media .icons:hover {
     color: white;
+    transition:0.3s ease-in-out;
 }
 
 .icons:not(:last-child) {

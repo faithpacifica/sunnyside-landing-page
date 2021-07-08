@@ -9,11 +9,6 @@
         display: none;
     }
 
-    /* .graphic{
-        padding-top: 40px;
-        left:95px;
-        top:28%;
-    } */
     .testimonials .container {
         width: 930px;
     }
@@ -79,7 +74,7 @@
     }
 
     .arrow {
-        top: 280px;
+        top: 250px;
     }
 
     .col1 {
@@ -122,8 +117,8 @@
     }
 
     .extra-text {
-        font-size: 22px;
-        line-height: 24px;
+        font-size: 20px;
+        line-height: 21px;
     }
 
     .extra-title {
@@ -188,7 +183,6 @@
     }
 
     .main-header {
-        padding-bottom: 30px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -198,7 +192,7 @@
     }
 
     .extra-text {
-        line-height: 24px;
+        line-height: 20px;
         font-size: 13px;
     }
 
@@ -229,10 +223,6 @@
         line-height: 20px;
         margin-bottom: 15px;
         font-size: 14px;
-    }
-
-    .clients {
-        padding-top: 50px;
     }
 
     .position {
