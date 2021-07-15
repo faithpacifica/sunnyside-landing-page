@@ -23,14 +23,22 @@
         width: 18rem;
     }
 
-    .hiddenButton {
+    /* .hiddenButton {
         display: none;
-    }
+    } */
 }
 
 @media (max-width:991px) {
 
-
+    .header-nav{
+        display:none;
+    }
+    .contact{
+        display:none;
+    }
+    .hiddenButton{
+        display:block;
+    }
     .learnMore {
         display: block;
         padding-bottom: 30px;
@@ -70,7 +78,8 @@
         height: 20px;
         background-color: transparent;
     }
-    .on{
+
+    .added{
         display:block;
     }
     .main-header .header-nav  {
@@ -104,6 +113,7 @@
         padding:8px 15px;
         border:none;
     }
+
     .contact {
         display: none;
     } 
