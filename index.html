@@ -15,21 +15,24 @@
     <body>
         <!-- HEADER+ INTRO SECTION -->
         <div class="wrapper">
-            <header class="main-header">
+            <header class="main-header" id="mainHeader">
                 <div class="container">
                     <div class="row">
                         <a href="index.html" class="logo">
                             <img src="images/sunnyside.svg" alt="logo">
                         </a>
                         <div class="right">
-                            <nav class="navbar header-nav">
+                            <nav class="navbar header-nav"  id="mainNav">
                                 <a class="main-links" href="#">About</a>
                                 <a class="main-links" href="#">Services</a>
                                 <a class="main-links" href="#">Projects</a>
+                                <a class="main-links on" href="#">Contacts</a>
                             </nav>
                             
                             <button class="contact" type="button">CONTACT</button>
-                            <button type="button" class="hiddenButton"><img src="images/mobileNav.png" alt=""></button>
+
+                            <button type="button" class="hiddenButton open"  onclick="openMenu()"><img src="images/mobileNav.png" alt="hamburger button"></button>
+                            <!-- <button type="button" id="closeButton" class="hiddenButton close"  onclick="closeMenu()"><img src="images/x.png"></button> -->
                         </div>
                     </div>
                 </div>
@@ -187,5 +190,20 @@
                 </div>
             </div>
         </footer>
+
+        <script>
+            const menu = document.getElementById('mainNav');
+            const header = document.getElementById('mainHeader');
+    
+            function openMenu() {
+                menu.style.display="block";
+                closeButton.style.display = "block";
+            }
+            function closeMenu() {
+                menu.style.display="none";
+                closeButton.style.display = "none";
+            }
+    
+        </script>
     </body>
 </html>

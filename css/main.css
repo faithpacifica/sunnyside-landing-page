@@ -112,8 +112,8 @@ a {
 
 .arrow {
     position: absolute;
-    left: 50%;
-    top: 280px;
+    left: 48%;
+    top: 270px;
 }
 
 .main-title {
@@ -130,10 +130,9 @@ a {
 
 .hiddenButton {
     border: none;
-
 }
 
-.hiddenButton img {
+.hiddenButton img{
     width: 24px;
     height: 24px;
     margin-top: -10px;
